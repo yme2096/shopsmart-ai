@@ -29,7 +29,7 @@ function Cart() {
       // CREATE ORDER
       const res = await axios.post(
 
-        "http://localhost:5000/api/payment",
+        "http://https://shopsmart-ai-yk2h.onrender.com/api/payment",
 
         {
           amount: totalPrice
